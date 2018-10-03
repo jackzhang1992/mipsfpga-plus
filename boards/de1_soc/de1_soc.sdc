@@ -11,7 +11,7 @@ create_clock -period 20.000ns [get_ports CLOCK2_50]
 create_clock -period 20.000ns [get_ports CLOCK3_50]
 create_clock -period 20.000ns [get_ports CLOCK4_50]
 
-create_clock -period "100 MHz" -name clk_dram [get_ports DRAM_CLK]
+create_clock -period "50 MHz" -name clk_dram [get_ports DRAM_CLK]
 # VGA : 640x480@60Hz
 #create_clock -period "25.18 MHz" -name clk_vga [get_ports VGA_CLK]
 # VGA : 800x600@60Hz
